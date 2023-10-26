@@ -1,3 +1,6 @@
+双时相遥感图像变化检测
+参考BIT_CD开源代码进行改进
+
 # Remote Sensing Image Change Detection with Transformers
 
 Here, we provide the pytorch implementation of the paper: Remote Sensing Image Change Detection with Transformers.
