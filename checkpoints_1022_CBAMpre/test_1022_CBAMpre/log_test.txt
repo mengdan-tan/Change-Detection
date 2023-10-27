@@ -1,0 +1,8 @@
+================ (Sun Oct 22 12:23:54 2023) ================
+gpu_ids: [0] project_name: test_1022_CBAMpre checkpoint_root: checkpoints_1022_CBAMpre num_workers: 2 dataset: CDDataset data_name: LEVIR batch_size: 4 split: train split_val: val img_size: 512 n_class: 2 net_G: base_transformer_pos_s4_dd8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 200 lr_policy: linear lr_decay_iters: 200 checkpoint_dir: checkpoints_1022_CBAMpre/test_1022_CBAMpre vis_dir: vis/test_1022_CBAMpre loading last checkpoint...
+Eval Historical_best_acc = 0.9289 (at epoch 199)
+
+Begin evaluation...
+Is_training: False. [1,32],  running_mf1: 0.92540
+acc: 0.98611 miou: 0.86896 mf1: 0.92571 iou_0: 0.98550 iou_1: 0.75242 F1_0: 0.99270 F1_1: 0.85872 precision_0: 0.99083 precision_1: 0.89126 recall_0: 0.99457 recall_1: 0.82847 
+

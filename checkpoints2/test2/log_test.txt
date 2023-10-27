@@ -1,0 +1,9 @@
+================ (Tue Oct 10 22:38:02 2023) ================
+gpu_ids: [0] project_name: test2 checkpoint_root: checkpoints2 num_workers: 1 dataset: CDDataset data_name: LEVIR batch_size: 1 split: train split_val: val img_size: 256 n_class: 2 net_G: base_transformer_pos_s4_dd8 loss: ce optimizer: sgd lr: 0.01 max_epochs: 20 lr_policy: linear lr_decay_iters: 100 checkpoint_dir: checkpoints2\test2 vis_dir: vis\test2 loading last checkpoint...
+Eval Historical_best_acc = 0.7752 (at epoch 16)
+
+Begin evaluation...
+Is_training: False. [1,128],  running_mf1: 0.82224
+Is_training: False. [101,128],  running_mf1: 0.81131
+acc: 0.95833 miou: 0.68061 mf1: 0.77685 iou_0: 0.95712 iou_1: 0.40410 F1_0: 0.97809 F1_1: 0.57560 precision_0: 0.97618 precision_1: 0.59823 recall_0: 0.98000 recall_1: 0.55463 
+
